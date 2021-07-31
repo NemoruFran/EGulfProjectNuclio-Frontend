@@ -1,0 +1,76 @@
+.titulo_box {
+    margin-left: 8.5rem;
+    margin-top: 4.18rem;
+    margin-bottom: 2.18rem;
+    font-size: 24px;
+  }
+  .box {
+    height: 153px;
+    width: 1166px;
+    border: 1px solid #e5e5e5;
+  
+    margin-left: 8.5rem;
+    background: #f9f9f9;
+  }
+  .titulo_inside_box {
+    margin-left: 64px;
+    margin-top: 45px;
+    font-size: 48px;
+  }
+  .next_titulo_inside {
+    margin-left: 0.75rem;
+    margin-right: 2.18rem;
+    font-size: 12px;
+    color: #798590;
+  }
+  .next_titulo_inside2 {
+    font-size: 12px;
+    margin-left: 0.75rem;
+    color: #798590;
+  }
+  .titulo_ganancias {
+    margin-left: 25rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .titulo_ganados {
+    font-size: 18px;
+    margin-left: 37.8rem;
+    margin-top: 0.25rem;
+    color: #798590;
+  }
+  .sell_button {
+    margin-left: 2.56rem;
+    height: 38px;
+    width: 274px;
+    background-color: #da4167;
+    color: #ffffff;
+    border: none;
+  }
+  .products_activos {
+    margin-left: 25px;
+    margin-top: 4.18rem;
+    margin-bottom: 2.18rem;
+  }
+  .titulo_activos {
+    margin-left: 112px;
+    font-size: 24px;
+    padding-top: 35px;
+  }
+  .products_vendidos {
+    margin-top: 4.18rem;
+    margin-left: 20px;
+    margin-bottom: 2.18rem;
+    padding-bottom: 417px;
+  }
+  .titulo_venta {
+    margin-left: 112px;
+    font-size: 24px;
+    padding-top: 35px;
+  }
+  .roll{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-self: auto;
+  }

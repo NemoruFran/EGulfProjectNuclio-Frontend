@@ -9,7 +9,10 @@ const Footer = () => {
   return (
     <footer>
       <hr />
-      <Logo />
+      <div className="logoContainer">
+        <Logo />
+      </div>
+
       <ul className="nav-links">
         <li>
           <a href="#">Comprar</a>

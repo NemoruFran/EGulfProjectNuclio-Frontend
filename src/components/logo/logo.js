@@ -1,11 +1,14 @@
 import "./logo.css";
-import LogoImg from "../../assets/logoimage.png";
+import Imagen from "../../assets/logoimage.png";
+import { Link } from "react-router-dom";
 
 const Logo = () => {
   return (
-    <div className="_logoContainer">
-      <img src={LogoImg} alt="eGulf" />
-    </div>
+    <Link to="/">
+      <div className="_logoContainer">
+        <img src={Imagen} alt="eGulf" />
+      </div>
+    </Link>
   );
 };
 

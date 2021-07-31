@@ -1,0 +1,20 @@
+.main_roll {
+  width: 100%;
+  margin-top: 94px;
+  margin-bottom: 22px;
+  margin-left: 170px;
+}
+.card_roll {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-self: auto;
+}
+
+.main_roll > h3 {
+  text-align: start;
+  margin-left: 4%;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 1rem;
+}

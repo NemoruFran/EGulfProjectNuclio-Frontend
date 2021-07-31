@@ -1,34 +1,20 @@
-._tabheadContainer {
+._headContainer {
   display: flex;
-  flex-direction: row;
+  position: relative;
   justify-content: center;
-  height: 62px;
+  height: 60px;
 }
-
-._tabheadContainer > div {
-  height: 31px;
-  font-family: url("../../assets/Roboto-Thin.ttf");
-  font-style: normal;
+._tabheadContainer {
   font-weight: 500;
   font-size: 12px;
-  line-height: 14px;
-  /* identical to box height */
-
-  display: flex;
-  margin-top: 28px;
   letter-spacing: 0.02em;
-
   color: #798591;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin-left: 37px;
+  text-transform: uppercase;
   margin-right: 37px;
+  margin-left: 37px;
+  margin-top: 25px;
 }
-
-._tabheadContainer > div:hover {
+._tabheadContainer :hover {
   color: #da4167;
   border-bottom: 4px solid #da4167;
   transition: 0.1s;

@@ -2,6 +2,7 @@ import "./loginform.css";
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useHistory } from "react-router-dom";
+import { API_ROOT } from "../../utils/apiHost/apiHost";
 
 const LoginForm = () => {
   const {
@@ -9,13 +10,15 @@ const LoginForm = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
+
   const history = useHistory();
+
   const onSubmit = (data) => {
     const jsondata = JSON.stringify(data);
-    if (Object.keys(errors).length === 0) {
+    if (Object.keys(errors).length !== 0) {
       alert(JSON.stringify(errors));
     } else {
-      fetch("http://localhost:5001/auth/login", {
+      fetch(`${API_ROOT}auth/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -25,12 +28,12 @@ const LoginForm = () => {
         .then((res) => res.json())
         .then((json) => {
           localStorage.setItem("token", json);
-          history.push("/");
-        }) //se guarda en local storage. Como hemos modificado el create, recuerda que el json devuelto es el token. Puedes mirar la función create del controlador
+          history.goBack();
+        })
         .catch((errors) => console.log(JSON.stringify(errors)));
     }
   };
-  //Necesita fixearse pq deberia salir solo durante unos segundos, necesario fixear alertas
+
   return (
     <div className="_loginformContainer">
       <span> Login </span>

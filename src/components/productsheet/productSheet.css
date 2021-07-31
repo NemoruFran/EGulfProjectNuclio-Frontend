@@ -1,0 +1,167 @@
+.productSheetContainer {
+  margin-left: 5px;
+  width: 590px;
+}
+.productSheetSeparator {
+  width: 590px;
+  margin-left: 0px !important;
+  margin-top: 56px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 38px;
+}
+.descriptionProductSheet {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+h2.descriptionTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.015em;
+  color: #696871;
+  margin-bottom: 33px;
+  margin-top: 38px;
+}
+h3.descriptionShipping {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.015em;
+  color: #696871;
+  margin-bottom: 33px;
+  margin-top: 38px;
+}
+h3.price {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.015em;
+  color: #000;
+  margin-bottom: 33px;
+  margin-top: 38px;
+  display: inline;
+}
+.bildsContainer {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  width: 444px;
+  height: 230px;
+  margin-bottom: 28px;
+}
+.sellerContainer {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  width: 444px;
+  height: 190px;
+  margin-bottom: 74px;
+}
+.productContainerGeneral {
+  display: flex;
+  width: 444px;
+  height: 190px;
+}
+.businessContainer {
+  display: inline;
+  margin-left: 98px;
+  margin-top: 46px;
+}
+.businessContainerInside {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.priceActuality {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+  color: #1f2041;
+  display: inline;
+}
+p.bidActuality {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.015e;
+  color: #696871;
+  display: inline;
+}
+.inputBid {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  display: block;
+  width: 323px;
+  height: 38px;
+  font-size: 15px;
+}
+.userActuality {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #083d77;
+  display: inline;
+}
+.ratingUser {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: inline;
+  margin-bottom: 31px;
+}
+.linkOther {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #798591;
+  letter-spacing: 0.02em;
+}
+.linkContainer {
+  margin-top: 31px;
+}
+.placeButton {
+  display: flex;
+  margin-left: 100px;
+}
+
+.bidButtonProduct {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  background: #da4167;
+  padding: 12px 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 131px;
+  height: 38px;
+  position: absolute;
+  height: 38px;
+}
+
+.errorParagraph {
+  color: rgb(119, 0, 0);
+  font-size: 15px;
+}

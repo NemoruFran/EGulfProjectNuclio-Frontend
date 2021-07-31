@@ -1,0 +1,18 @@
+.principalImage {
+    width: 554px;
+    height: 412px;   
+}
+.mosaicImage {
+   display: flex;
+   width: 50%;
+}
+.galleryContainer {
+    display: flex;
+}
+.rowContainerOne {
+    display: flex;
+    margin-bottom: 10px;   
+}
+.rowContainerTwo {
+    display: flex;
+}

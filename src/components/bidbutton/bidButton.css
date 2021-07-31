@@ -1,0 +1,19 @@
+.bidButtonProduct{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    background: #DA4167;
+    padding: 12px 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 131px;
+    height: 38px;   
+    position: absolute;
+    height: 38px;  
+}
